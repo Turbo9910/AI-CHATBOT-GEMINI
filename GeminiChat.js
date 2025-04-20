@@ -30,7 +30,7 @@ const GeminiChat = () => {
   const fadeAnims = useRef(new Map()).current;
   const dotAnims = useRef([new Animated.Value(0), new Animated.Value(0), new Animated.Value(0)]).current;
 
-  const API_KEY = "AIzaSyB71j0MgwwP9jLLTGrVJxaOtPB9-FGLmcY"; 
+  const API_KEY = "YOUR_API_KEY"; 
   const genAI = new GoogleGenerativeAI.GoogleGenerativeAI(API_KEY);
 
  
